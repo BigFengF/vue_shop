@@ -1,0 +1,13 @@
+html,
+body,
+#app{
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+.el-scrollbar {
+    height: 400px !important
+}
+.ql-editor{
+    min-height: 300px;
+  }
