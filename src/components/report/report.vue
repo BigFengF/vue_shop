@@ -1,13 +1,12 @@
 <template>
     <div>
-            <div id="main" class="main" style="weight:1200px; height: 1200px;"></div>
+<!--            <div id="main" class="main" style="weight:1200px; height: 1200px;"></div>-->
         <!-- </el-card> -->
+      111
     </div>
 </template>
 <script>
 // 导入echarts
-import * as echarts from 'echarts'
-import chinaMap from './china.js'
 // import _ from 'lodash'
 export default {
   data () {
@@ -48,21 +47,21 @@ export default {
     // this.getEcharts()
   },
   mounted () {
-    this.getEcharts()
+    // this.getEcharts()
   },
   methods: {
-    getEcharts () {
-      echarts.registerMap("china", { geoJSON: chinaMap })
-      var myChart = echarts.init(document.getElementById('main'))
-        var option = {}
-        myChart.setOption(option)
-    }
+    // getEcharts () {
+    //   echarts.registerMap("china", { geoJSON: chinaMap })
+    //   var myChart = echarts.init(document.getElementById('main'))
+    //     var option = {}
+    //     myChart.setOption(option)
+    // }
   }
 
 }
 </script>
 <style lang="less" scoped>
-.el-card{
-    margin-top: 30px;
-}
+//.el-card{
+//    margin-top: 30px;
+//}
 </style>
